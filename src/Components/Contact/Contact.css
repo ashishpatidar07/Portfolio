@@ -1,0 +1,129 @@
+.contactPageTittle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+.contactDesc {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+
+.submitBtn{
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link{
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .contactPageTittle {
+    font-size: 2rem;
+  }
+
+  .contactDesc {
+    font-size: 0.9rem;
+  }
+
+  .name,
+  .email,
+  .msg {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+
+  .submitBtn {
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .links {
+    gap: 0.75rem;
+  }
+
+  .link img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactPageTittle {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .contactDesc {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .name,
+  .email,
+  .msg {
+    font-size: 0.85rem;
+    max-width: 95%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  .submitBtn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+  }
+
+  .link img {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+  }
+}
