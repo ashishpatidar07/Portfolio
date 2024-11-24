@@ -81,14 +81,16 @@
     background: rgb(30, 30, 30);
 }
 
-@media screen and( max-width:720px){
-    .mobMenu{
+
+
+@media screen and (max-width: 720px) {
+    .mobMenu {
         display: flex;
     }
-    .desktopMenu{
+    .desktopMenu {
         display: none;
     }
-    .desktopMenuBtn{
+    .desktopMenuBtn {
         display: none;
     }
 }
