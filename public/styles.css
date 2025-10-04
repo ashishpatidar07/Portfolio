@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    background: transparent;
-    font-family: Poppins;
+:root {
+  --primary-color: #ffd700;
+  --background-dark: #1e1e1e;
+  --background-light: #323232;
+  --font-light: #ffffff;
+  --accent-color: #00ffcc;
+  --border-radius: 1rem;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-body{
-    background: rgb(30, 30, 30);
-    color: white;
-    overflow: hidden;
-    overflow-y: scroll;
-    
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--background-dark);
+  color: var(--font-light);
+  line-height: 1.6;
 }
